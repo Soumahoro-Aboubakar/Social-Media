@@ -1,0 +1,31 @@
+.uploadImage{
+ width: 100%px;
+ transform: translateX(20%);
+}
+.uploadImage label{
+position: absolute;
+font-weight: bold;
+font-size: 25px;
+margin-top: -6px;
+background-color: black;
+border-radius: 25px;
+transform: translateX(45px);
+color: aliceblue;
+}
+
+.uploadImage #file{
+width: 290px;
+display: block;   
+margin: auto;
+cursor: pointer;
+background-color: aliceblue;
+}
+
+.uploadImage .envoyez{
+display: inline-block;
+width: 200px;
+background-color: #bf610a;
+margin: 15px auto;
+transform: translateX(30%);
+font-size: 25px;
+}

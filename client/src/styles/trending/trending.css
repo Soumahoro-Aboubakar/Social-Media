@@ -1,0 +1,14 @@
+.trending-page{
+max-width: 600px;
+margin:90px 10px 15px 50px;
+}
+
+
+.trending-page .right-side{
+    max-width: 40%;
+    position: fixed;
+    top: 100px;
+    left: 900px;
+    background-color: rgb(241, 184, 184);
+    border-radius: 25px;
+}

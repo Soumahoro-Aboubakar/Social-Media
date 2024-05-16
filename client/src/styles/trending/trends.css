@@ -1,0 +1,38 @@
+.trending-container{
+max-width: 350px;
+border-radius: 25px;
+}
+
+.trending-container .trending-image{
+
+width: 50px;
+border-radius: 40%;
+}
+
+.trending-container h4{
+text-align: center;
+}
+
+.trending-container .trpxend-content p{
+text-align: center;
+color: black;
+}
+
+.trending-container li{
+list-style: none;
+display: flex;
+flex-direction: row;
+border: 1px solid rgb(237, 215, 215);
+border-radius: 25px;
+margin-bottom: 5px;
+padding: 5px;
+}
+
+.trending-container a{
+text-decoration: none;
+}
+
+.trending-container .trend-content{
+margin-left:15px;
+
+}

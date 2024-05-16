@@ -1,0 +1,101 @@
+.card-container{
+display: flex;
+flex-direction: row;
+border-radius: 8px;
+border: 1px solid #7a7676;
+position: relative;
+margin-bottom: 5px;
+max-height: auto;
+box-shadow: 1px 2px 3px rgb(238, 198, 198) ;
+}
+
+ .navComponent-container .container{
+margin-left: 10px;
+position: relative;
+ } 
+.card-container #card-left-img{
+width: 100px;
+margin: 10px;
+height: 100px;
+border-radius: 40%;
+box-shadow: 1px 2px 3px rgb(246, 120, 120);
+cursor: pointer;
+}
+.card-container #card-left-img:hover{
+transform: scale(2);
+}
+
+.card-container h3{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-container  .card-picture{
+width: 85%;
+max-height: 250px;
+}
+.card-container .message{
+font-family:monospace;
+width: 90%;
+margin:0px auto;
+}
+
+.card-container .pseudo{
+display: flex;
+flex-direction: row;
+}
+ 
+.card-container .card-right .card-footer{
+ width: 400px;
+display : flex;
+flex-direction: row;
+justify-content:space-between;
+margin: 15px;
+align-items: center;
+transform: translateX(-50px);
+}
+
+.card-container .card-header {
+display:flex;
+flex-direction:row ;
+margin-bottom: 10px;
+}
+.card-container .card-header .hour{
+   position: absolute;
+   top:8px;
+   right: 5px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   opacity: 0.7;
+}
+ .icon  {
+width: 30px;
+cursor: pointer;
+}
+
+.icon:hover{
+transform: scale(1.2);
+}
+#editAndDelete {
+
+margin: 4px;
+}
+
+.card-container #comment{
+margin-right:5px;
+}
+.card-container .button-container-footer {
+    cursor: pointer;
+    transform: translateX(350px);
+}
+
+.card-container  .editComment{
+width: 80%;
+font-family:monospace;
+margin-left: 30px;
+border-radius: 10px;
+height: 100px;
+box-shadow: 1px 2px 3px #ef7070 ;
+}
+
+.card-container .btn{
+background-color: rgb(136, 245, 136);
+transform: translateX(200px);
+}

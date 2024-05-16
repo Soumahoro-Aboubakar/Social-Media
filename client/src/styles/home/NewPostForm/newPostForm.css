@@ -1,0 +1,118 @@
+.post-container{
+margin-top: 80px;
+background-color: rgb(247, 140, 140);
+max-width: 610px;
+transform: translateX(35px);
+border-radius: 25px;
+position: relative;
+}
+
+.post-container .data {
+position: absolute;
+top:5px;
+right: 25px;
+}
+
+.post-container  .user-pic{
+width: 100px;
+height: 100px;
+transform: translateX(250px);
+margin-top: 10px;
+border-radius: 30%;
+}
+
+.post-container  textarea{
+font-family:inherit;
+display: block;
+max-width: 400px;
+border-radius: 10px;
+height: auto;
+margin: 20px auto 10px auto;
+}
+.post-container  textarea:placeholder-shown{
+text-align: center;
+align-items: center;
+font-family:sans-serif;
+}
+.post-container  .send{
+position: absolute;
+bottom: 10px;
+right: 40px;
+width: 150px;
+background-color: rgb(96, 249, 96);
+font-family: 'Times New Roman', Times, serif;
+}
+
+.post-container  .send:hover{
+transform: scale(1.1);
+}
+
+.post-container  #file-upload{
+margin:15px 0px;
+transform: translate(78px,-14px);
+cursor: pointer;
+}
+
+.post-container  .abonne{
+transform: translateY(-20px);
+}
+
+.post-container  .upload-pic{
+width: 50px;
+height: 30px;
+position: absolute;
+transform: translate(-180px,-2px);
+cursor: pointer
+
+}
+
+
+.post-container .cancel{
+margin: 10px 10px 10px 25px;
+background-color: green;
+}
+.post-container .cancel:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.post-container .user-under-pic{
+width: 60px;
+height: 60px;
+margin-left: 20px;
+margin-top: 5px;
+border-radius: 5px;
+}
+
+.post-container .card-container-post{
+position: relative;
+background-color: rgb(242, 192, 192);
+max-width: 80%;
+transform: translateX(60px);
+border-radius: 15px;
+}
+
+.post-container .pseudo h3{
+position: absolute;
+top: 5px;
+left: 90px;
+font-family:'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+ .post-container .date-post{
+position: absolute;
+top: 3px;
+right: 15px;
+}
+
+.post-container .message-post{
+overflow-wrap: break-word;
+margin: 5px;
+font-family: monospace;
+font-weight: bold;
+font-size: 15px;
+}
+.post-container li{
+list-style: none;
+}

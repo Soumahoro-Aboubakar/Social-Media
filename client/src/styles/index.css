@@ -1,0 +1,19 @@
+
+@import './app.css'; 
+@import'./profil.css';
+@import './title.css';
+@import './navLinkComponent.css';
+@import './uploadAndBio.css';
+@import './uploadImage.css';
+@import './home/threads.css';
+@import './home.css';
+@import './home/card.css';
+@import './home/followHandler.css';
+@import './home/CardComment.css';
+@import './home/editAndDelete.css';
+@import './home/NewPostForm/newPostForm.css';
+@import './trending/trending.css';
+@import './trending/trends.css';
+@import './friendsHint/frendsHint.css';
+
+

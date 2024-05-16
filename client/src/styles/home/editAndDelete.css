@@ -1,0 +1,45 @@
+ .edit-comment .btn-edit-detele{
+    margin-top: 15px;
+transform: translateX(150px);
+}
+
+.edit-comment  .icon-comment{
+width: 25px;
+height: 20px;
+cursor: pointer;
+}
+.edit-comment  .icon-comment:hover{
+width: 30px;
+height: 30px;
+} 
+
+.edit-comment .delete-btn{
+margin-right: 8px;
+}
+  
+.edit-comment  .modifi-btn{
+background-color: rgb(132, 237, 132);
+}
+.edit-comment  .modifi-btn:hover{
+transform: scale(1.1);
+}
+
+.edit-comment .edit-input{
+width: 90%;
+transform: translateX(20px);
+height: 90px;
+border-radius: 25px;
+}
+
+.edit-comment label{
+background-color: rgb(207, 245, 233);
+border-radius: 5px;
+width: 60px; 
+padding-left: 9px;
+margin-bottom: 5px;
+}
+
+.edit-comment label:hover{
+transform: scale(1.3);
+cursor: pointer;
+}

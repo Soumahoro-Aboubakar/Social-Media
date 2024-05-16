@@ -1,0 +1,23 @@
+.get-friends-container{
+
+}
+
+.get-friends-container h4{
+text-align: center;
+}
+
+.get-friends-container .user-picture{
+width: 50px;
+border-radius: 25px;
+height: 50px;
+}
+
+.get-friends-container  .user-hint{
+display: flex;
+flex-direction: row;
+}
+
+.get-friends-container  .user-hint p{
+margin: 0px 20px 0px 10px;
+}
+

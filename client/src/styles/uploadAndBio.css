@@ -1,0 +1,87 @@
+.uploadAndBio-container{
+transform: translateX(-10%);
+overflow: hidden;
+}
+.uploadAndBio-container .container-user-informcation{
+display: flex;
+}
+
+.uploadAndBio-container .userName{
+font-weight: bold;
+font-size: 30px;
+}
+
+
+ .uploadAndBio-container .left-part{
+     width: 500px;
+     height: auto;
+     background-color:rgb(243, 193, 175,0.8);
+     margin-right:20px ;
+     border-radius: 25px;
+} 
+.uploadAndBio-container .right-part{
+    width: 500px;
+     height: auto;
+    background-color: rgb(243, 193, 175,0.8);
+    border-radius: 25px;
+}
+.uploadAndBio-container .textProfil{
+text-align: center;
+margin: 10px 0px;
+}
+ .uploadAndBio-container img{
+width: 150px;
+height: auto;
+border-radius: 40px;
+display: block;
+margin: 15px auto;
+}
+.uploadAndBio-container p{
+border-radius: 25px;
+width: 80%;
+height: 80px;
+background-color: aliceblue;
+margin: 0px auto;
+box-shadow: 2px 4px 3px red;
+}
+.uploadAndBio-container .btn-changeBio{
+    display: inline-block;
+    width: 150px;
+ margin: 10px  20px 10px 300px;
+ border-radius: 30%;
+ font-size: large;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.uploadAndBio-container textarea{
+ display: block;
+width: 300px;
+height: 100px;
+border-radius: 20px;
+margin: 0px auto;
+text-align: center;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+
+.uploadAndBio-container .btn-valider{
+    display: inline-block;
+    width: 200px;
+ margin: 10px  20px 10px 300px;
+ border-radius: 30%;
+ font-size: large;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.uploadAndBio-container  .dateOfCreatingCount{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.uploadAndBio-container .abonnementAndAbonne{
+text-align: center;
+margin: 25px auto;
+width: 400px;
+background-color: goldenrod;
+padding: 10px;
+border-radius: 25px;
+cursor: pointer;
+}

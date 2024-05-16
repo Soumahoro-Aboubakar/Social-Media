@@ -1,0 +1,111 @@
+
+.premier{
+    background-color: rgb(243, 193, 175,0.8);
+    border-radius: 25px;
+}
+
+#profil{
+margin-top:100px;
+}
+.profil li{
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 5px;
+    width: 150px;
+    margin-right: 65px;
+}
+
+.defaut{
+    padding: 4px 5px ;
+    border-radius: 25px;
+    background-color:rgb(218, 97, 53) ;
+    
+}
+
+.profil .deuxieme{
+    margin-top:14px;
+    transform: translateX(-80px);
+   
+}
+.profil #premiereImageOrdinateur{
+height: 300px;
+transform: translateX(80%);
+transform: translateY(40%);
+width: 90%;
+}
+
+.inscription label{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom:5px;
+    font-style: normal;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.inscription .form-group{
+    margin-top: 10px;
+}
+
+
+.inscription .form-check-input{
+    display: inline-block;
+margin-top: 8px;
+}
+.inscription .form-check{
+    margin: 5px 0px 12px 0px;
+}
+
+.inscription .btn{
+    display: block;
+    margin-top: 12px;
+}
+.container.profil{
+margin-left: 150px;
+}
+
+.connection label{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom:5px;
+    font-style: normal;
+    font-weight: bold;
+    opacity: 0.95;
+}
+
+
+
+.connection .btn{
+    display: block;
+    margin-top: 25px;
+    align-items: center;
+    transform: translateX(40%);
+}
+.profil #deuxiemeImageOrdinateur{
+    height: 300px;
+transform: translateX(5%);
+transform: translateY(5%);
+width: 90%;
+}
+
+
+
+  @media screen and (max-width: 992px){
+   
+      .container{
+          width: auto;
+          margin: auto;
+      }
+    .materiel{
+        visibility: hidden;
+    }
+    .premier{
+        position: absolute;
+        text-align: center;
+    }
+  }
+
+ 

@@ -1,0 +1,46 @@
+.title .title-second .imageId{
+width: 70px;
+height: 40px;
+align-items: center;
+margin: 0px 20px 20px 20px;
+}
+
+.title .bonhomme{
+ display: inline-block; 
+transform: translateX(-125px);
+}
+.title{
+z-index: 1; 
+position: fixed; 
+width: 100%;
+background-color: aliceblue;
+top: 0px;
+right: 12px;
+width: 70%;
+transform: translateX(-20%);
+}
+ 
+.title .online-container{
+ position: absolute;
+ right: 20px;
+}
+.title .pseudo-container{
+    margin: 0px 50px ;
+/*     position: absolute; */
+    right: 250px;
+    font-size: 25px;
+}
+ .title .image-container{
+    margin: 40px;
+ }
+
+
+
+  @media screen and (min-width: 932px){
+    .title .image-container{
+        margin: 0px 150px 150px;
+     }
+     .title .pseudo-container{
+        text-align: center;
+     }
+ }

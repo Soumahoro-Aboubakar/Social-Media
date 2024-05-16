@@ -1,0 +1,38 @@
+ .home{
+ transform: translateX(50px);
+/*  */
+} 
+.home .right-part{
+   margin-top: 20px;
+    /* display: flex;
+    flex-direction:row; */
+    max-width: auto;
+}
+
+.home .left-part{ 
+margin-top: 100px;
+transform: translate(-185px,-100px);
+}
+
+.navComponent-container #homeBtn {
+margin-left:-50px ;
+}
+
+.navComponent-container .container{
+margin-left: 10px;
+}
+
+.home .home-header {
+max-width: 60%;
+overflow-x: auto;
+height: auto;
+}
+ .trending-part {
+    max-width: 40%;
+    position: fixed;
+    top: 100px;
+    left: 900px;
+    background-color: rgb(241, 184, 184);
+    border-radius: 25px;
+}
+
